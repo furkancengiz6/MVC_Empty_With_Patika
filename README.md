@@ -19,20 +19,21 @@ Bu proje, **ASP.NET Core MVC** kullanarak oluşturulmuş basit bir müşteri yö
 
 ## 📂 Proje Yapısı
 
-mvc-empty-customer/
-│── Controllers/
-│   ├── CustomersController.cs
-│   ├── HomeController.cs
-│── Models/
-│   ├── Customer.cs
-│   ├── CustomerViewModel.cs
-│── Views/
-│   ├── Customers/
-│   │   ├── Index.cshtml
-│   ├── Home/
-│   │   ├── Index.cshtml
-│── Program.cs
-│── README.md
+📂 mvc-empty-customer/
+- 📁 Controllers/
+  - 📄 CustomersController.cs
+  - 📄 HomeController.cs
+- 📁 Models/
+  - 📄 Customer.cs
+  - 📄 CustomerViewModel.cs
+- 📁 Views/
+  - 📁 Customers/
+    - 📄 Index.cshtml
+  - 📁 Home/
+    - 📄 Index.cshtml
+- 📄 Program.cs
+- 📄 README.md
+
 
 ## 🚀Çıktı
 
