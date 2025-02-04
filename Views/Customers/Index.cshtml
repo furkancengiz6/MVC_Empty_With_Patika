@@ -1,0 +1,44 @@
+﻿@model MVC_Empty_With_Patika.Models.CustomerViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="card shadow-lg">
+            <div class="card-header bg-primary text-white">
+                <h1 class="text-center">@Model.WelcomeMessage</h1>
+            </div>
+            <div class="card-body">
+                <h2 class="text-center text-secondary">Customer Details</h2>
+                <table class="table table-bordered mt-3">
+                    <tr>
+                        <th class="bg-light">Id</th>
+                        <td>@Model.customer.Id</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light">First Name</th>
+                        <td>@Model.customer.FirstName</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light">Last Name</th>
+                        <td>@Model.customer.LastName</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light">Email</th>
+                        <td>@Model.customer.Email</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
